@@ -5,7 +5,7 @@ public class hello {
         int albumLengthA = 41;
         int albumLengthB = 53;
         boolean sameNumberOfSongs = songsA == songsB;
-        boolean differentLength = albumLengthA != albumLengthB;
+        boolean differentLength = albumLengthA != albumLengthB;h
 
         System.out.println("hello world" + differentLength + sameNumberOfSongs);
     }
