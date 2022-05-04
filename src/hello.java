@@ -5,7 +5,7 @@ public class hello {
         int albumLengthA = 41;
         int albumLengthB = 53;
         boolean sameNumberOfSongs = songsA == songsB;
-        boolean differentLength = albumLengthA != albumLengthB;h
+        boolean differentLength = albumLengthA != albumLengthB;
 
         System.out.println("hello world" + differentLength + sameNumberOfSongs);
     }
@@ -33,6 +33,6 @@ public class Store {
     public static void main(String[] args) {
         Store lemonadeStand = new Store("Lemonade", 3.75);
         lemonadeStand.increasePrice(1.5);
-        System.out.println(lemonadeStand.price);
-
+        System.out.println(lemonadeStand.price);}
     }
+
