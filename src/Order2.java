@@ -1,10 +1,10 @@
-public class Order {
+public class Order2 {
     boolean isFilled;
     double billAmount;
     String shipping;
     String couponCode;
 
-    public Order(boolean filled, double cost, String shippingMethod, String coupon) {
+    public Order2(boolean filled, double cost, String shippingMethod, String coupon) {
         if (cost > 24.00) {
             System.out.println("High value item!");
         }
@@ -28,7 +28,12 @@ public class Order {
             return 0;
         } else if (shipping.equals("Express")) {
             // Add your code here
-return 1.75;
+            if (couponCode.equals("ship50")){
+                return .85;
+            }
+            else {
+                return 1.75;
+            }
 
         } else {
             return .50;
